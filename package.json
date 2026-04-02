@@ -7,6 +7,12 @@
   "start": "node index.js",
   "build": "echo Building project...",
   "test": "echo No tests yet"
+ },
+"scripts": {
+  "start": "node index.js",
+  "practice": "node practice.js",
+  "build": "echo Building project...",
+  "test": "echo No tests yet"
 },
   "repository": {
     "type": "git",
