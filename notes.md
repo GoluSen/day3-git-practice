@@ -32,3 +32,12 @@
 - ^1.2.3 - allow minor + patch updates
 - ~1.2.3 - allow patch updates only
 - 1.2.3 - exact version only
+
+
+## What I Built Today
+- Git repository with feature branches
+- 3 Pull Requests created and merged
+- npm project with axios, lodash, date-fns
+- API calls using axios
+- Helper functions using lodash and date-fns
+- Proper .gitignore and README setup
