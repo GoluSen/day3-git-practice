@@ -13,3 +13,18 @@ const getUser = async () => {
 }
 
 getUser()
+
+
+// Multiple API calls
+const getPosts = async () => {
+  try {
+    const response = await axios.get('https://jsonplaceholder.typicode.com/posts?_limit=3')
+    response.data.forEach(post => {
+      console.log('Post title:', post.title)
+    })
+  } catch (error) {
+    console.log('Error:', error.message)
+  }
+}
+
+getPosts()
