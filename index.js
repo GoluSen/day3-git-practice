@@ -16,3 +16,20 @@ console.log('Evens:', evens)
 
 const sum = numbers.reduce((acc, n) => acc + n, 0)
 console.log('Sum:', sum)
+
+
+// Object practice
+const person = {
+  name: 'Golu',
+  age: 21,
+  city: 'Vidisha'
+}
+console.log('Name:', person.name)
+console.log('Keys:', Object.keys(person))
+console.log('Values:', Object.values(person))
+```
+
+Save karo, phir:
+```
+git add .
+git commit -m "feat: add object methods examples"
