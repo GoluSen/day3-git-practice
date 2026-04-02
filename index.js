@@ -45,3 +45,16 @@ console.log('Tomorrow:', format(tomorrow, 'dd/MM/yyyy'))
 const nextWeek = new Date()
 nextWeek.setDate(nextWeek.getDate() + 7)
 console.log('Next week:', format(nextWeek, 'dd/MM/yyyy'))
+
+
+// Lodash practice
+const users = [
+  { name: 'Golu', age: 21 },
+  { name: 'Raj', age: 25 },
+  { name: 'Priya', age: 19 }
+]
+const sorted = _.sortBy(users, 'age')
+console.log('Sorted by age:', sorted)
+
+const names = _.map(users, 'name')
+console.log('Names:', names)
