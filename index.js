@@ -27,9 +27,11 @@ const person = {
 console.log('Name:', person.name)
 console.log('Keys:', Object.keys(person))
 console.log('Values:', Object.values(person))
-```
 
-Save karo, phir:
-```
-git add .
-git commit -m "feat: add object methods examples"
+
+// String methods practice
+const str = 'hello world from git practice'
+console.log('Uppercase:', str.toUpperCase())
+console.log('Split:', str.split(' '))
+console.log('Includes git:', str.includes('git'))
+console.log('Replace:', str.replace('hello', 'hi'))
