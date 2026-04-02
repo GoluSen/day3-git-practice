@@ -1,0 +1,28 @@
+{
+  "name": "day3-git-practice",
+  "version": "1.0.0",
+  "description": "Learning Git, GitHub and npm workflows.",
+  "main": "index.js",
+ "scripts": {
+  "start": "node index.js",
+  "build": "echo Building project...",
+  "test": "echo No tests yet"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoluSen/day3-git-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/GoluSen/day3-git-practice/issues"
+  },
+  "homepage": "https://github.com/GoluSen/day3-git-practice#readme",
+  "dependencies": {
+    "axios": "^1.14.0",
+    "date-fns": "^4.1.0",
+    "lodash": "^4.18.1"
+  }
+}
