@@ -35,3 +35,13 @@ console.log('Uppercase:', str.toUpperCase())
 console.log('Split:', str.split(' '))
 console.log('Includes git:', str.includes('git'))
 console.log('Replace:', str.replace('hello', 'hi'))
+
+
+// Date practice using date-fns
+const tomorrow = new Date()
+tomorrow.setDate(tomorrow.getDate() + 1)
+console.log('Tomorrow:', format(tomorrow, 'dd/MM/yyyy'))
+
+const nextWeek = new Date()
+nextWeek.setDate(nextWeek.getDate() + 7)
+console.log('Next week:', format(nextWeek, 'dd/MM/yyyy'))
